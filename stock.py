@@ -83,6 +83,7 @@ def plot_stock_data():
 # Create the GUI window
 root = tk.Tk()
 root.title("Stock Market App")
+root.state('zoomed')
 
 
 # Set dark theme
